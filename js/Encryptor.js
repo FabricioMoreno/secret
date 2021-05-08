@@ -29,14 +29,14 @@ export default class Encryptor{
             const letterPosition = this.getLetterPositionArray(letter)
             const randomLetterPosition = this.getAlphabetRandomNumber()
 
-            if(letterPosition > randomLetterPosition){
+            if(typeof letterPosition === 'number' && letterPosition > randomLetterPosition){
                 const range = letterPosition - randomLetterPosition
                 //const message = `${this.getLetterALphabet(randomLetterPosition)}+${range} :::::${letter} ->> ${randomLetterPosition}`
                 const message = `${this.getLetterALphabet(randomLetterPosition)}+${range}`
                 //console.log(message)
                 return message
             }
-            else if(letterPosition < randomLetterPosition){
+            else if(typeof letterPosition === 'number' && letterPosition < randomLetterPosition){
                 const range = randomLetterPosition - letterPosition
                 //const message = `${this.getLetterALphabet(randomLetterPosition)}-${range} :::::${letter} ->> ${randomLetterPosition}`
                 const message = `${this.getLetterALphabet(randomLetterPosition)}-${range}`
