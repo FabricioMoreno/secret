@@ -43,7 +43,7 @@ function start(){
 
             //Create a clipboard btn inside result box
             DISPLAY_BOX.insertAdjacentHTML( 'beforeend',`<div class="result-box_clipboard" id="result-box_clipboard">
-            <button class="clipboaard-btn" id="clipboaard-btn">Copy</button>
+            <button class="clipboaard-btn" id="clipboaard-btn">Copy <i class="far fa-clipboard"></i></button>
             </div>`)
     
             //Add clipboard functionality to btn
