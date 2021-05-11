@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding:0;
+}
+:root{
+    --primary-text:'Lobster', cursive;
+    --secondary-text: 'Rubik', sans-serif;
+    --primary-color:#E5F2C9;
+    --background-color : #1E1A1D;
+    --secondary-color: #7F534B;
+    --third-color:#8C705F;
+}
+body{
+    background-color: var(--background-color);
+}
+h1{
+    font-size: 35px;
+    font-family: var(--primary-text);
+    color: var(--primary-color);
+    letter-spacing: 2px;
+}

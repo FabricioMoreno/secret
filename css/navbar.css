@@ -1,0 +1,29 @@
+/*--------------------------------------------------
+                    NAVBAR
+---------------------------------------------------*/
+.navbar{
+    background-color: #1F0318;
+}
+.navbar .navbar-brand{
+    font-family: var(--primary-text);
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+.navbar-toggler-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    font-size:28px;
+}
+.navbar-nav a{
+    font-size: 18px;
+    font-family: var(--primary-text)
+}
+.navbar a,.navbar-toggler{
+    color: var(--primary-color);
+    letter-spacing: 1.5px;
+}
+.nav-link:hover{
+    color: #9a9ec5;
+}
