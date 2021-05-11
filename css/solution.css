@@ -1,0 +1,33 @@
+.main{
+    text-align: center;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+/*--------------------------------------------------
+                SOLUTION HEADER
+---------------------------------------------------*/
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.header h1{
+    font-size: 50px;
+}
+/*--------------------------------------------------
+                SOLUTION CONTENT
+---------------------------------------------------*/
+.solution-content{
+    margin: 0 auto;
+    width: 80%;
+    font-family: var(--secondary-text);
+    letter-spacing: 0.8px;
+}
+.solution-content h2{
+    font-family: var(--secondary-text);
+    font-weight: bolder;
+    padding-top: 15px;
+}
+.solution-content ul{
+    list-style: none;
+    padding:0px;
+}
